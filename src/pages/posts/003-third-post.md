@@ -2,7 +2,6 @@
 title: 'Third Post! - My time actually coding'
 date: 2020-05-28 18:00:00
 author: 'demkantor'
-path: '/third-post'
 image: '../../images/cloud.jpg'
 tags:
 - JavaScript
