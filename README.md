@@ -10,5 +10,5 @@
 
 
 # resources
-    icons from font-awesome
-
+    icons from font-awesome.com
+    images from vecteezy.com
