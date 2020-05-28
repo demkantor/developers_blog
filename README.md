@@ -11,4 +11,4 @@
 
 # resources
     icons from font-awesome.com
-    images from vecteezy.com
+    images from vecteezy.com & unsplash.com
