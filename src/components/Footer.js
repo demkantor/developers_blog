@@ -19,11 +19,11 @@ const Footer = () => (
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/demkantor"
+                    <a href="https://demkantor.github.io/david-dot-com.io/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="twitter">
-                            <i className="fab fa-twitter fa-2x" />
+                        className="www">
+                            <i className="fas fa-globe fa-2x" />
                     </a>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ const Footer = () => (
                         target="_blank"
                         rel="noopener noreferrer"
                         className="google">
-                            <i className="fab fa-google fa-2x" />
+                            <i className="fab fa-codepen fa-2x" />
                     </a>
                 </li>
                 <li>

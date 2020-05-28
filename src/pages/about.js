@@ -1,12 +1,11 @@
-import React from "react"
-// import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const AboutPage = () => (
-  <Layout>
+  <Layout pageTitle="About me...">
     <SEO title="About" />
-    <h1>Hi people, this is my about page!</h1>
+    <p>words...........</p>
   </Layout>
 );
 

@@ -1,12 +1,10 @@
-import React from "react"
-// import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const TagsPage = () => (
-  <Layout>
+  <Layout pageTitle="these are the tags!">
     <SEO title="Tags" />
-    <h1>Hi people, this is my tags page!</h1>
   </Layout>
 );
 
