@@ -22,7 +22,7 @@ const Footer = () => (
                     <a href="https://demkantor.github.io/david-dot-com.io/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="www">
+                        className="portfolio">
                             <i className="fas fa-globe fa-2x" />
                     </a>
                 </li>
@@ -35,10 +35,10 @@ const Footer = () => (
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/demkantor"
+                    <a href="https://codepen.io/demkantor"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="google">
+                        className="codepen">
                             <i className="fab fa-codepen fa-2x" />
                     </a>
                 </li>

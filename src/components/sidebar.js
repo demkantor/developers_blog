@@ -1,11 +1,68 @@
 import React from "react";
-import { Card, CardTitle, CardBody, Form, FormGroup, Input } from 'reactstrap';
+import { Card, CardText, CardTitle, CardBody, Form, FormGroup, Input } from 'reactstrap';
 import { graphql, StaticQuery } from "gatsby";
 import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 
-const Sidebar = () => (
+const Sidebar = ({ author, authorFluid }) => (
     <div>
+        {author && (
+            <Card>
+                <Img className="card-image-top" fluid={authorFluid}/>
+                <CardBody>
+                    <CardTitle className="text-center text-uppercase mb-3">
+                        {author.name}
+                    </CardTitle>
+                    <CardText>
+                        {author.bio}
+                    </CardText>
+                    <div className="author-social-links text-center">
+                        <ul>
+                            <li>
+                                <a href={author.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="github">
+                                        <i className="fab fa-github fa-lg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href={author.portfolio}
+                                    targe="_blank"
+                                    rel="noopener noreferrer"
+                                    className="portfolio">
+                                        <i className="fas fa-globe fa-lg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href={author.xda}
+                                    targe="_blank"
+                                    rel="noopener noreferrer"
+                                    className="xda">
+                                        <i className="fab fa-android fa-lg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href={author.codepen}
+                                    targe="_blank"
+                                    rel="noopener noreferrer"
+                                    className="codepen">
+                                        <i className="fab fa-codepen fa-lg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href={author.linkedin}
+                                    targe="_blank"
+                                    rel="noopener noreferrer"
+                                    className="linkedin">
+                                        <i className="fab fa-linkedin fa-lg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </CardBody>
+            </Card>
+        )}
         <Card>
             <CardBody>
                 <CardTitle className="text-center text-uppercase mb-3">
