@@ -1,7 +1,7 @@
 ###  My Blog (demkantor)
     Follow me on my journey as a software developer!
     Hopefully the tips i share will help others!
-    [Check It Out!](https://www.demkantor.com)
+    Check It Out! [Here](https://www.demkantor.com)
 
 ## This was made with...
     JavaScript
