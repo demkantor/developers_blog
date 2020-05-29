@@ -15,7 +15,7 @@ class Header extends Component {
 
   state = {
     isOpen: false
-  }
+  };
 
   toggle = () => {
     this.setState({

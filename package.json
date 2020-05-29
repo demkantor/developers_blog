@@ -1,8 +1,8 @@
 {
   "name": "demkantor_blog",
   "private": true,
-  "description": "A blog documenting my carrer as a coder",
-  "version": "0.1.0",
+  "description": "A blog documenting my carrer as a coder and sharing tips for new developers",
+  "version": "0.1.2",
   "author": "demkantor",
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -44,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/demkantor/developers_blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/demkantor/developers_blog/issues"
   }
 }

@@ -1,8 +1,7 @@
 import React from "react";
 import { Card, CardText, CardTitle, CardBody, Form, FormGroup, Input } from 'reactstrap';
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
 import Img from 'gatsby-image';
-import { Link } from 'gatsby';
 
 const Sidebar = ({ author, authorFluid }) => (
     <div>
@@ -101,13 +100,13 @@ const Sidebar = ({ author, authorFluid }) => (
                         <div>
                             {data.allMarkdownRemark.edges.map(({ node }) => (
                                 <Card key={node.id}>
-                                    <Link to={node.fields.slug}>
+                                    <Link to={`/${node.fields.slug}/`}>
                                         <Img className="card-image-top"
                                             fluid={node.frontmatter.image.childImageSharp.fluid}/>
                                     </Link>
                                     <CardBody>
                                         <CardTitle>
-                                            <Link to={node.fields.slug}>
+                                            <Link to={`/${node.fields.slug}/`}>
                                                 {node.frontmatter.title}
                                             </Link>
                                         </CardTitle>

@@ -1,7 +1,7 @@
 ---
 title: 'First Post! - Intoduction'
 date: 2020-05-28  12:00:00
-author: 'demkantor'
+author: 'David Kantor'
 image: '../../images/binary.jpg'
 tags:
 - code

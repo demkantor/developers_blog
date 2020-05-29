@@ -1,7 +1,7 @@
 ---
 title: 'Third Post! - My time actually coding'
 date: 2020-05-28 18:00:00
-author: 'demkantor'
+author: 'David Kantor'
 image: '../../images/cloud.jpg'
 tags:
 - JavaScript

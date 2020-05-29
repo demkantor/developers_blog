@@ -14,12 +14,12 @@ import {
 const Post = ({ title, author, slug, date, body, fluid, tags }) => {
     return (
         <Card>
-            <Link to={slug}>
+            <Link to={`/${slug}/`}>
                 <Img className="card-image-top" fluid={fluid} />
             </Link>
             <CardBody>
                 <CardTitle>
-                    <Link to={slug}>
+                    <Link to={`/${slug}/`}>
                         {title}
                     </Link>
                 </CardTitle>
@@ -41,7 +41,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
                         </li>
                     ))}
                  </ul>
-                <Link to={slug} className="btn btn-outline-primary float-right">
+                 <Link to={`/${slug}/`} className="btn btn-outline-primary float-right">
                     Read More
                 </Link>
             </CardBody>

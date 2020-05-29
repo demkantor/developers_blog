@@ -1,8 +1,9 @@
 import React from 'react';
-import Layout from '../components/layout';
-import Post from '../components/Post';
 import { graphql } from 'gatsby';
 import PaginationLinks from '../components/PaginationLinks';
+import Layout from '../components/layout';
+import Post from '../components/Post';
+
 
 const postList = (props) => {
     const posts = props.data.allMarkdownRemark.edges;

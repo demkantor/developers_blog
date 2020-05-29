@@ -1,12 +1,13 @@
 import React from 'react';
-import Layout from '../components/layout';
 import { graphql, Link } from 'gatsby';
-import SEO from '../components/seo';
-import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap';
 import Img from 'gatsby-image';
+import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap';
+import { DiscussionEmbed } from 'disqus-react';
+import SEO from '../components/seo';
 import { slugify } from '../util/utilityFunctions';
 import authors from '../util/authors';
-import { DiscussionEmbed } from 'disqus-react';
+import Layout from '../components/layout';
+
 
 
 const singlePost = ({ data, pageContext }) => {
@@ -40,7 +41,7 @@ const singlePost = ({ data, pageContext }) => {
                     <ul className="post-tags">
                         {post.tags.map((tag) => (
                             <li key={tag}>
-                                <Link to={`/tag/${slugify(tag)}`}>
+                                <Link to={`/tag/${slugify(tag)}/`}>
                                     <Badge color="primary">
                                         {tag}
                                     </Badge>
