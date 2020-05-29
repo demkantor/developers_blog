@@ -97,7 +97,7 @@ exports.createPages = ({ actions, graphql }) => {
         });
 
         // how many posts per page do we want? creating that number here
-        const postsPerPage = 2;
+        const postsPerPage = 3;
         const numberOfPages = Math.ceil(posts.length / postsPerPage);
 
         Array.from({ length: numberOfPages }).forEach((_, index) => {

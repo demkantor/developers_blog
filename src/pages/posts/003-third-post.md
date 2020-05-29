@@ -1,12 +1,12 @@
 ---
 title: 'Third Post! - My time actually coding'
-date: 2020-05-28 18:00:00
+date: 2020-05-30 18:00:00
 author: 'David Kantor'
-image: '../../images/cloud.jpg'
+image: '../../images/laptop.jpg'
 tags:
-- JavaScript
-- tutorial
-- cloud
+- My setup
+- computer
+- linux
 ---
 
-Welcome to my blog! The first code i ever wrote... thats a tough one... but my first real coding was..
+Welcome to my blog! what do i use as a computer?
