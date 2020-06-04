@@ -1,5 +1,5 @@
 ---
-title: 'Second Post! - My first coding experience'
+title: 'My first coding experience'
 date: 2020-05-31 13:00:00
 author: 'David Kantor'
 image: '../../images/curly.jpg'
