@@ -1,6 +1,6 @@
 ---
 title: 'My first coding experience'
-date: 2020-05-31 13:00:00
+date: 2020-06-02 13:00:00
 author: 'David Kantor'
 image: '../../images/curly.jpg'
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'My computer set up'
-date: 2020-06-01 18:00:00
+date: 2020-06-06 18:00:00
 author: 'David Kantor'
 image: '../../images/laptop.jpg'
 tags:
