@@ -1,6 +1,6 @@
 ---
 title: 'Using GitHub'
-date: 2020-06-10 20:00:00
+date: 2020-06-12 20:00:00
 author: 'David Kantor'
 image: '../../images/git.png'
 tags:
